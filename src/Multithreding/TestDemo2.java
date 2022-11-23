@@ -24,23 +24,3 @@ class Android extends Thread
         }
     }
 }
-public class TestDemo2 {
-    public static void main(String[] args) {
-        class ThreadDemo2 {
-            public static void main(String[] args) {
-                Thread thread1 = new Java();//upcasting.
-                Thread thread2 = new Android();//upcasting.
-
-                thread1.start();//to start the thread
-                try {
-                    Thread.sleep(50);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
-                thread2.start();//start method internally calls run() method*/
-
-            }
-
-        }
-    }
-}
